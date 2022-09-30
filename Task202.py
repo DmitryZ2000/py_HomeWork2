@@ -3,7 +3,7 @@
 
 number = input("Введите целое положительное число: ")
 while not number.isdigit():
-    number = input("Введите целое положительное число: ") # Защита от ввода символов5
+    number = input("Введите целое положительное число: ") # Защита от ввода символов
 number = int(number)
 mylist = [1]
 for i in range(1, number):
